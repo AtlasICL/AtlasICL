@@ -1,3 +1,1 @@
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AtlasICL&layout=compact&hide_progress=true)
-
+# Hello ! I'm Emre, a BSc Computer Science student at the University of Exeter.  
