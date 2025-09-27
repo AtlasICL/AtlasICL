@@ -2,5 +2,7 @@
 
 ### I'm a penultimate year CS student at the University of Exeter.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AtlasICL&layout=compact&theme=dark&exclude_repo=ML_Fundamentals&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AtlasICL&layout=compact&theme=dark&exclude_repo=ML_Fundamentals,excs_hackathon&langs_count=8&=2)
+
+
 
