@@ -3,8 +3,9 @@
 ### I'm a penultimate year CS student at the University of Exeter.
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/
-?username=YOUR_USERNAME
+?username=AtlasICL
 &layout=compact
 &theme=github_dark
 &hide=jupyter%20notebook
 )
+
