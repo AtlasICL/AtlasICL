@@ -62,4 +62,4 @@ production-scale software development.
   - Evaluates translation layers (Wine/Proton), containers and VMs (Docker, Podman) and Electron, using published benchmark data
   - 25 cited sources in IEEE style
 
-- More on my [website](https://eacarsoy.com/projects): Machine learning, a web battleships game against an AI, a lift simulator, and an electrical engineering group design project.
+- More on my [website](https://eacarsoy.com/projects).
