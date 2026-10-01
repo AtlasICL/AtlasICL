@@ -21,9 +21,7 @@ production-scale software development.
 ## Experience
 
 - Software Engineering Intern at **Cloudflare** (06/2026 – 09/2026)
-  - Contributed to the Maintenance Coordination System (MCS), which models Cloudflare's infrastructure as a multi-layered graph to ensure maintenances are scheduled safely
-  - Onboarded 2 consumer-facing services (Workers KV and Containers) onto MCS by topologically modelling their quorum constraints, backed by comprehensive unit and integration test suites
-  - Shipped independent codebase fixes: resolved a BFS path reconstruction bug, made the test suite timezone-agnostic with a cross-timezone regression harness, and moved timeframe validity checks into the API schema to close a CLI bypass
+  - Worked within the IPO - MCS team
 
 ## Notable Projects
 
