@@ -37,22 +37,17 @@ production-scale software development.
   - Installs compilers, Java/Maven, NeoVim (with config), tmux, and tools such as fzf, ripgrep, fd and bat
   - Generates SSH keys, backs up any config it overwrites, and shows a persistent progress bar
 
-- [Granite block allocator](https://github.com/AtlasICL/granite_block_allocator)
-  - Desktop tool that packs granite blocks into containers, loading each one as close to its weight limit as possible
-  - Solves each container as a 0/1 knapsack problem using dynamic programming, vectorised with NumPy
-  - Optional blocks-per-container limit, with a greedy fallback for very large inputs
-  - tkinter GUI, unit tests run with GitHub Actions, and packaged as a Windows executable
-
 - [Custom 16-bit CPU with pipelining and interrupts](https://github.com/AtlasICL/16-bit-cpu)
   - 16-bit RISC-style CPU built in the Issie digital-logic simulator, from a half adder up to a pipelined processor
   - Designed the instruction-decode, ALU-control and conditional-branch logic, and fixed bugs in the provided blocks
   - Wrote 16- and 32-bit shift-and-add multiplication routines in assembly
   - Analysed the 2-stage pipeline and interrupt handling, verified cycle by cycle against a reference model
 
-- [Multi-threaded card game simulation](https://github.com/AtlasICL/cardgame)
-  - Multi-threaded card game simulation in Java
-  - Custom cyclic barrier implementation for thread synchronisation
-  - Full JUnit test suite, with a testing report
+- [Granite block allocator](https://github.com/AtlasICL/granite_block_allocator)
+  - Desktop tool that packs granite blocks into containers, loading each one as close to its weight limit as possible
+  - Solves each container as a 0/1 knapsack problem using dynamic programming, vectorised with NumPy
+  - Optional blocks-per-container limit, with a greedy fallback for very large inputs
+  - tkinter GUI, unit tests run with GitHub Actions, and packaged as a Windows executable
 
 - [Why is Software OS-Specific?](https://github.com/AtlasICL/os-specific-software)
   - Technical presentation in LaTeX Beamer on why applications get tied to one operating system
