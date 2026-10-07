@@ -28,10 +28,10 @@ production-scale software development.
 ## Notable Projects
 
 - [whatdidi: command-line history search tool](https://github.com/AtlasICL/whatdidi)
-  - Searches your shell history (persistent and current session) for commands matching a search term
-  - Compatible with bash and zsh, on macOS and Linux
-  - Supports compound commands, `sudo`-prefixed commands and unique-only results
-  - Persistent user settings, self-update and uninstall, and an automated test suite
+  - Searches your shell history across all shell sessions for commands matching a search term, matching 50k lines in 3ms
+  - Supports compound commands and `sudo`-prefixed commands, on bash and zsh, macOS and Linux
+  - Persistent user settings, including the default result count and filtering for unique results
+  - Written in Bash, with a comprehensive automated test suite integrated into a CI pipeline using GitHub Actions
 
 - [Custom macOS/Linux setup script](https://github.com/AtlasICL/dotfiles)
   - One command turns a fresh macOS or Ubuntu/Debian machine into a ready-to-use development environment
@@ -40,10 +40,10 @@ production-scale software development.
   - Generates SSH keys, backs up any config it overwrites, and shows a persistent progress bar
 
 - [Granite block allocator](https://github.com/AtlasICL/granite_block_allocator)
-  - Desktop tool that packs granite blocks into containers, loading each one as close to its weight limit as possible
-  - Solves each container as a 0/1 knapsack problem using dynamic programming, vectorised with NumPy
-  - Optional blocks-per-container limit, with a greedy fallback for very large inputs
-  - tkinter GUI, unit tests run with GitHub Actions, and packaged as a Windows executable
+  - Container-loading optimisation tool, built for a client, and in production use
+  - Models each container as a 0/1 knapsack problem solved with dynamic programming, vectorised with NumPy
+  - 62 unit tests run in GitHub Actions, covering malformed input and cases where DP outperforms greedy
+  - Shipped as a standalone Windows executable with a GUI
 
 - [Custom 16-bit CPU with pipelining and interrupts](https://github.com/AtlasICL/16-bit-cpu)
   - 16-bit RISC-style CPU built in the Issie digital-logic simulator, from a half adder up to a pipelined processor
@@ -51,15 +51,9 @@ production-scale software development.
   - Wrote 16- and 32-bit shift-and-add multiplication routines in assembly
   - Analysed the 2-stage pipeline and interrupt handling, verified cycle by cycle against a reference model
 
-- [Multi-threaded card game simulation](https://github.com/AtlasICL/cardgame)
-  - Multi-threaded card game simulation in Java
-  - Custom cyclic barrier implementation for thread synchronisation
-  - Full JUnit test suite, with a testing report
-
 - [Why is Software OS-Specific?](https://github.com/AtlasICL/os-specific-software)
   - Technical presentation in LaTeX Beamer on why applications get tied to one operating system
   - Traces the causes to system call interfaces and graphics APIs
   - Evaluates translation layers (Wine/Proton), containers and VMs (Docker, Podman) and Electron, using published benchmark data
-  - 25 cited sources in IEEE style
 
-- More on my [website](https://eacarsoy.com/projects): Machine learning, a web battleships game against an AI, a lift simulator, and an electrical engineering group design project.
+- More on my [website](https://eacarsoy.com/projects).
