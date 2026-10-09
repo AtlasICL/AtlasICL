@@ -5,16 +5,11 @@ I'm a final-year Computer Science student at the University of Exeter, currently
 I am trilingual in English, French, and Turkish, and have a B1 in Spanish.
 
 [![Website](https://img.shields.io/badge/Website-eacarsoy.com-ff7f00?style=for-the-badge&logo=googlechrome&logoColor=white)](https://eacarsoy.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-emre--acarsoy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emre-acarsoy)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-## Quick stats
-
-![Top Langs](https://github-readme-stats-82m5.vercel.app/api/top-langs?username=AtlasICL&layout=compact&theme=github_dark&hide=jupyter%20notebook,javascript,css,lua,html&exclude_repo=acarsoy.co.uk)
 
 ## Experience
 
