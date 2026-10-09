@@ -1,7 +1,8 @@
 # Hello! I'm Emre.
 
-I'm a final year Computer Science student at the University of Exeter, currently achieving First-Class Honours, with a skillset bridging low-level optimisation and
-production-scale software development.
+I'm a final-year Computer Science student at the University of Exeter, currently achieving First-Class Honours, and a former Software Engineering Intern at Cloudflare. I've built production infrastructure tooling and worked on distributed systems, with a skillset bridging low-level optimisation and production-scale software development.
+
+I am trilingual in English, French, and Turkish, and have a B1 in Spanish.
 
 [![Website](https://img.shields.io/badge/Website-eacarsoy.com-ff7f00?style=for-the-badge&logo=googlechrome&logoColor=white)](https://eacarsoy.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-emre--acarsoy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emre-acarsoy)
@@ -9,10 +10,7 @@ production-scale software development.
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Quick stats
 
@@ -21,9 +19,20 @@ production-scale software development.
 ## Experience
 
 - Software Engineering Intern at **Cloudflare** (06/2026 – 09/2026)
-  - Contributed to the Maintenance Coordination System (MCS), which models Cloudflare's infrastructure as a multi-layered graph to ensure maintenances are scheduled safely
-  - Onboarded 2 consumer-facing services (Workers KV and Containers) onto MCS by topologically modelling their quorum constraints, backed by comprehensive unit and integration test suites
-  - Shipped independent codebase fixes: resolved a BFS path reconstruction bug, made the test suite timezone-agnostic with a cross-timezone regression harness, and moved timeframe validity checks into the API schema to close a CLI bypass
+  - Owned the end-to-end onboarding of 2 consumer-facing services (Workers KV and Containers) onto the Maintenance Coordination System (MCS), which models Cloudflare's infrastructure as a multi-layered graph to ensure maintenances are scheduled safely, coordinating with service teams to align requirements and resolve blockers
+  - Modelled both services' quorum constraints in TypeScript, backed by unit and integration test suites, enabling MCS to automatically block quorum-breaking maintenances
+  - Shipped independent codebase fixes: closed a CLI bypass of timeframe validation by moving checks into the API schema, diagnosed and fixed timezone-dependent test failures with a cross-timezone regression harness, and resolved a BFS path reconstruction bug
+
+## Education
+
+- BSc Computer Science at the **University of Exeter** (09/2024 – 06/2027)
+  - Current average of 71% (First-Class Honours)
+  - Dissertation: a supply chain attack detection and alerting tool
+  - Led Agile teams through the software development lifecycle, tracking progress on Jira
+
+- BEng Electrical Engineering at **Imperial College London** (09/2022 – 07/2023), transferred to Exeter for Computer Science
+  - Wrote custom templated data structures in C++ (graphs, dynamic arrays, AVL trees) and algorithms such as Kruskal's, Prim's and Floyd–Warshall
+  - Designed and simulated a 16-bit CPU with full arithmetic and control flow, pipelining and interrupts
 
 ## Notable Projects
 
@@ -33,17 +42,22 @@ production-scale software development.
   - Persistent user settings, including the default result count and filtering for unique results
   - Written in Bash, with a comprehensive automated test suite integrated into a CI pipeline using GitHub Actions
 
+- [Granite block allocator](https://github.com/AtlasICL/granite_block_allocator)
+  - Container-loading optimisation tool, built for a client and now in production use, increasing average container volume utilisation by 15%
+  - Models each container as a 0/1 knapsack problem solved with dynamic programming, vectorised with NumPy
+  - 62 unit tests run in GitHub Actions, covering malformed input and cases where DP outperforms greedy
+  - Shipped as a standalone Windows executable with a GUI
+
 - [Custom macOS/Linux setup script](https://github.com/AtlasICL/dotfiles)
   - One command turns a fresh macOS or Ubuntu/Debian machine into a ready-to-use development environment
   - Detects the OS and installs packages with apt or Homebrew, translating package names between the two
   - Installs compilers, Java/Maven, NeoVim (with config), tmux, and tools such as fzf, ripgrep, fd and bat
   - Generates SSH keys, backs up any config it overwrites, and shows a persistent progress bar
 
-- [Granite block allocator](https://github.com/AtlasICL/granite_block_allocator)
-  - Container-loading optimisation tool, built for a client, and in production use
-  - Models each container as a 0/1 knapsack problem solved with dynamic programming, vectorised with NumPy
-  - 62 unit tests run in GitHub Actions, covering malformed input and cases where DP outperforms greedy
-  - Shipped as a standalone Windows executable with a GUI
+- [Game telemetry and balancing platform (team project)](https://github.com/AtlasICL/com2020)
+  - Led a team of 7 across two Agile sprints, coordinating Jira task tracking, repository and workflow setup, team meetings and sprint demos
+  - Implemented Google OAuth 2.0 (OIDC) authentication with role-based access control
+  - Designed the JSON event schema connecting the game to the telemetry platform, and implemented event parsing, analytics, and a matplotlib GUI with CSV export
 
 - [Custom 16-bit CPU with pipelining and interrupts](https://github.com/AtlasICL/16-bit-cpu)
   - 16-bit RISC-style CPU built in the Issie digital-logic simulator, from a half adder up to a pipelined processor
