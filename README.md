@@ -16,7 +16,7 @@ I am trilingual in English, French, and Turkish, and have a B1 in Spanish.
 - **Software Engineering Intern** at **Cloudflare** (06/2026 – 09/2026)
   - Owned the end-to-end onboarding of 2 consumer-facing services (Workers KV and Containers) onto the Maintenance Coordination System (MCS), which models Cloudflare's infrastructure as a multi-layered graph to ensure maintenances are scheduled safely, coordinating with service teams to align requirements and resolve blockers
   - Modelled both services' quorum constraints in TypeScript, backed by unit and integration test suites, enabling MCS to automatically block quorum-breaking maintenances
-  - Shipped independent codebase fixes: closed a CLI bypass of timeframe validation by moving checks into the API schema, diagnosed and fixed timezone-dependent test failures with a cross-timezone regression harness, and resolved a BFS path reconstruction bug
+  - Shipped independent codebase fixes: closed a CLI bypass of timeframe validation by moving checks into the API schema, diagnosed and fixed timezone-dependent test failures with a cross-timezone regression harness
 
 ## Notable Projects
 
