@@ -49,9 +49,4 @@ I am trilingual in English, French, and Turkish, and have a B1 in Spanish.
   - Wrote 16- and 32-bit shift-and-add multiplication routines in assembly
   - Analysed the 2-stage pipeline and interrupt handling, verified cycle by cycle against a reference model
 
-- [Why is Software OS-Specific?](https://github.com/AtlasICL/os-specific-software)
-  - Technical presentation in LaTeX Beamer on why applications get tied to one operating system
-  - Traces the causes to system call interfaces and graphics APIs
-  - Evaluates translation layers (Wine/Proton), containers and VMs (Docker, Podman) and Electron, using published benchmark data
-
 - More on my [website](https://eacarsoy.com/projects).
