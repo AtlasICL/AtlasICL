@@ -31,6 +31,12 @@ I am trilingual in English, French, and Turkish, and have a B1 in Spanish.
   - Models each container as a 0/1 knapsack problem solved with dynamic programming, vectorised with NumPy
   - 62 unit tests run in GitHub Actions, covering malformed input and cases where DP outperforms greedy
   - Shipped as a standalone Windows executable with a GUI
+ 
+- [Custom 16-bit CPU with pipelining and interrupts](https://github.com/AtlasICL/16-bit-cpu)
+  - 16-bit RISC-style CPU built in the Issie digital-logic simulator, from a half adder up to a pipelined processor
+  - Designed the instruction-decode, ALU-control and conditional-branch logic, and fixed bugs in the provided blocks
+  - Wrote 16- and 32-bit shift-and-add multiplication routines in assembly
+  - Analysed the 2-stage pipeline and interrupt handling, verified cycle by cycle against a reference model
 
 - [Custom macOS/Linux setup script](https://github.com/AtlasICL/dotfiles)
   - One command turns a fresh macOS or Ubuntu/Debian machine into a ready-to-use development environment
@@ -42,11 +48,5 @@ I am trilingual in English, French, and Turkish, and have a B1 in Spanish.
   - Led a team of 7 across two Agile sprints, coordinating Jira task tracking, repository and workflow setup, team meetings and sprint demos
   - Implemented Google OAuth 2.0 (OIDC) authentication with role-based access control
   - Designed the JSON event schema connecting the game to the telemetry platform, and implemented event parsing, analytics, and a matplotlib GUI with CSV export
-
-- [Custom 16-bit CPU with pipelining and interrupts](https://github.com/AtlasICL/16-bit-cpu)
-  - 16-bit RISC-style CPU built in the Issie digital-logic simulator, from a half adder up to a pipelined processor
-  - Designed the instruction-decode, ALU-control and conditional-branch logic, and fixed bugs in the provided blocks
-  - Wrote 16- and 32-bit shift-and-add multiplication routines in assembly
-  - Analysed the 2-stage pipeline and interrupt handling, verified cycle by cycle against a reference model
 
 - More on my [website](https://eacarsoy.com/projects).
